@@ -28,4 +28,8 @@ Think of it as your **Flutter playground** — experiment, learn, and build. Whe
  Output :Navigation_With_Namedroutes
  <img width="931" height="881" alt="image" src="https://github.com/user-attachments/assets/3fc8b874-28dd-43a4-89e4-0cdade9df60c" />
 
+ Output : Navigators
+
+ 
+
 
