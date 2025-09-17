@@ -101,4 +101,15 @@ class DesktopLayout extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(Icons.desktop_windows_
+          Icon(Icons.desktop_windows, size: 120, color: Colors.purple),
+          SizedBox(width: 20),
+          Text(
+            "Desktop Layout",
+            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
