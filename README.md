@@ -22,5 +22,8 @@ Think of it as your **Flutter playground** — experiment, learn, and build. Whe
 👩‍💻 Created with passion and curiosity by *Abdul*  
 📌 Keep exploring, keep coding, and keep building amazing UIs!  
 
-Meadia_queries_&_breakpoints.dart
+ Output : Meadia_queries_&_breakpoints
 <img width="937" height="884" alt="image" src="https://github.com/user-attachments/assets/07af6ec9-2059-4b1d-aa7e-ae3cb5cc3720" />
+
+ Output :Navigation_With_Namedroutes
+
