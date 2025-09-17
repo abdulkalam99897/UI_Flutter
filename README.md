@@ -2,7 +2,7 @@
 
 🚀 This repository is your **go-to space for Flutter & Dart explorations** — where ideas turn into interactive UIs!  
 
-💻 Curated with love by **bnpranavika**, it’s a collection of small yet impactful code snippets that bring Flutter to life.  
+💻 Curated with love by *Abdul*, it’s a collection of small yet impactful code snippets that bring Flutter to life.  
 
 ---
 
@@ -19,5 +19,5 @@ Think of it as your **Flutter playground** — experiment, learn, and build. Whe
 
 ---
 
-👩‍💻 Created with passion and curiosity by **Abdul**  
+👩‍💻 Created with passion and curiosity by *Abdul*  
 📌 Keep exploring, keep coding, and keep building amazing UIs!  
