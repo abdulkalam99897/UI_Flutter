@@ -38,18 +38,27 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("🏠 Home")),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          ElevatedButton(
-            onPressed: () => _navigate(context, const AboutPage()),
-            child: const Text("Go to About Page"),
-          ),
-          ElevatedButton(
-            onPressed: () => _navigate(context, const ContactPage()),
-            child: const Text("Go to Contact Page"),
-          ),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start, // Align to left side
+          children: [
+            const Text(
+              "Welcome to Home Page",
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () => _navigate(context, const AboutPage()),
+              child: const Text("Go to About Page"),
+            ),
+            const SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: () => _navigate(context, const ContactPage()),
+              child: const Text("Go to Contact Page"),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -62,10 +71,14 @@ class AboutPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("ℹ️ About")),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () => Navigator.pop(context),
-          child: const Text("Back to Home"),
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Align(
+          alignment: Alignment.topLeft,
+          child: ElevatedButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text("Back to Home"),
+          ),
         ),
       ),
     );
@@ -79,12 +92,17 @@ class ContactPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("📞 Contact")),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () => Navigator.pop(context),
-          child: const Text("Back to Home"),
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Align(
+          alignment: Alignment.topLeft,
+          child: ElevatedButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text("Back to Home"),
+          ),
         ),
       ),
     );
   }
 }
+
