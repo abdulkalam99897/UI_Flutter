@@ -43,7 +43,8 @@ Output : Setstate Provider
 Output :  Statefull Widges
 <img width="944" height="876" alt="image" src="https://github.com/user-attachments/assets/1fe35d2e-01b3-4448-892c-3c934db80df8" />
 
-Output : Stateless_Widget.dart
+Output : Stateles Widget
+<img width="930" height="869" alt="image" src="https://github.com/user-attachments/assets/4d27e31e-51d3-4cd3-8e7d-4a4ef59d9369" />
 
 
 
