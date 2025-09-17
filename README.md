@@ -30,6 +30,8 @@ Think of it as your **Flutter playground** — experiment, learn, and build. Whe
 
  Output : Navigators
  <img width="941" height="884" alt="image" src="https://github.com/user-attachments/assets/f4ffe884-6af8-4a73-99a9-0a65e16cb202" />
+ <img width="935" height="883" alt="image" src="https://github.com/user-attachments/assets/1d5fda0f-ce0e-4c77-93c0-ea1efea3a3c4" />
+
 
 
  
